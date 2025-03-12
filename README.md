@@ -8,6 +8,7 @@ Windowsにインストールされているアプリケーション一覧を取�
 
 ### Restart_And_UEFI_Startup  
 Windowsを再起動してUEFIのセットアップ画面に移動するバッチファイル
+警告なしに再起動するので注意  
 
 ### Win10_Style_RightClickMenu  
 Windows11の右クリックメニューを従来版に戻すレジストリファイル  
