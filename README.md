@@ -3,18 +3,23 @@
 適当に増えたりするかもしれません  
 
 # 各スクリプトの説明
-### App_List_Generator  
+### App_List_Generator
 Windowsにインストールされているアプリケーション一覧を取得するバッチファイル  
 結果はバッチを実行したフォルダにApp_List.txtの名前で出力されます
 
-### Restart_And_UEFI_Startup  
+### DxDiag_Generator
+Windowsの環境などを確認できるDxDiagの結果を出力するバッチファイル  
+結果はバッチを実行したフォルダにdxdiag.txtの名前で出力されます  
+出力に時間がかかるため、黒い画面は自動で閉じるまで何もしないでください
+
+### Restart_And_UEFI_Startup
 Windowsを再起動してUEFIのセットアップ画面に移動するバッチファイル  
 実行すると警告なしに再起動するので注意  
 
 ### SCKill
 Star Citizenがハングした等で何もできなくなった際に強制終了させるバッチファイル  
 
-### Win10_Style_RightClickMenu  
+### Win10_Style_RightClickMenu
 Windows11の右クリックメニューを従来版に戻すレジストリファイル  
 適用後は再起動が必要です  
 
