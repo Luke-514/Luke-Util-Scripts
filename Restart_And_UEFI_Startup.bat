@@ -1,1 +1,1 @@
-shutdown.exe /r /fw /t 0
+shutdown /r /fw /t 0
