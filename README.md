@@ -7,7 +7,7 @@
 Windowsにインストールされているアプリケーション一覧を取得するバッチファイル  
 
 ### Restart_And_UEFI_Startup  
-Windowsを再起動してUEFIのセットアップ画面に移動するバッチファイル
+Windowsを再起動してUEFIのセットアップ画面に移動するバッチファイル  
 警告なしに再起動するので注意  
 
 ### Win10_Style_RightClickMenu  
