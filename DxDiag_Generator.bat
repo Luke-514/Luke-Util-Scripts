@@ -1,1 +1,0 @@
-dxdiag /t dxdiag.txt
