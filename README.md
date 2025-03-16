@@ -4,7 +4,7 @@
 
 # ライセンスについて
 Windows用のスクリプトはMIT  
-Linux用のスクリプトはGPL v3です
+Linux用のスクリプトはGPL-3.0です
 
 # 各スクリプトの説明
 ## Windows
