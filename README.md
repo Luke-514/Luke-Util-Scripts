@@ -33,9 +33,6 @@ Windows11の右クリックメニューを従来版に戻すレジストリフ�
 適用後は再起動が必要です  
 
 ## Linux
-### Switch_Root
-実行すると実行中のユーザーパスワードでRootユーザーになることができます
-
 ### Check_Over_Size_FS
 引数に指定した使用率より大きいファイルシステムを出力します  
 ex) ./Check_Over_Size_FS.sh 80
