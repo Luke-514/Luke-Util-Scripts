@@ -6,4 +6,4 @@ SWAPAVAILABLE=`free $1 | grep Swap | awk '{print $4}'`
 
 echo "CPU  IDLE     : "$CPUIDLE
 echo "MEM  Available: "$MEMAVAILABLE
-echo "SWAP Available: "$SWAPAVAILABLE
+echo "Swap Available: "$SWAPAVAILABLE
