@@ -33,6 +33,12 @@ Windows11の右クリックメニューを従来版に戻すレジストリフ�
 適用後は再起動が必要です  
 
 ## Linux
+### Check_CPU_and_MEM_Available
+CPUのアイドルとメモリ、スワップの空きを表示します  
+メモリはfreeコマンドのAvailableを参照しています  
+引数にfreeコマンドの引数を指定できます  
+ex) ./Check_CPU_and_MEM_Available.sh -m
+
 ### Check_Over_Size_FS
 引数に指定した使用率より大きいファイルシステムを出力します  
 ex) ./Check_Over_Size_FS.sh 80
