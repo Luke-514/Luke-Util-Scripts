@@ -45,3 +45,10 @@ ex) ./Check_Over_Size_FS.sh 80
 
 # 免責事項
 スクリプトなどの使用によって発生した、いかなる損害に対しても作者は一切の責任を負いません。  
+
+# 作者
+Luke514  
+Twitter:@rx_luke
+
+# 寄付
+<a href="https://www.buymeacoffee.com/Luke514" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
