@@ -36,7 +36,8 @@ Star Citizenがハングした等で何もできなくなった際に強制終�
 動画の幅を調整したい場合は、バッチファイル内のVIDEOWIDTH=640の数値部分を変更してください  
 (横幅を指定してください　縦幅は自動計算されます)  
   
-参考  
+GIF変換部分の参考  
+@yusuga (Yu Sugawara)  
 [ffmpegでとにかく綺麗なGIFを作りたい](https://qiita.com/yusuga/items/ba7b5c2cac3f2928f040)
 
 ### Video_Resize
