@@ -22,4 +22,6 @@ if %errorlevel% neq 0 (
   ffmpeg -i "%~1" -crf !IMAGEQUALITY! -preset medium "!OUTPUT!"
 )
 
-pause
+if %errorlevel% neq 0 (
+  pause
+)
