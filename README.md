@@ -45,7 +45,7 @@ Star Citizenがハングした等で何もできなくなった際に強制終�
 (0から51の間で調整可能　数値が小さいほど高画質になります)  
   
 エンコード速度と圧縮率のバランスを変更したい場合は、バッチファイル内のPRESET=veryfastの  
-文字列を変更してください  
+文字列部分を変更してください  
 (ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslowが指定可能)  
 (推奨はmediumかveryfastです)  
 
