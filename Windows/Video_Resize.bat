@@ -2,7 +2,10 @@
 setlocal enabledelayedexpansion
 
 REM Image quality (0-51, the lower the number, the higher the image quality)
+REM Preset (ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslow. Recommend medium or veryfast)
+
 SET IMAGEQUALITY=23
+SET PRESET=veryfast
 
 ffmpeg -version >nul 2>&1
 
@@ -19,7 +22,7 @@ if %errorlevel% neq 0 (
   SET "EXTENSION=%~x1"
   SET "OUTPUT=%~dp1!FILENAME!_resize!EXTENSION!"
 
-  ffmpeg -i "%~1" -crf !IMAGEQUALITY! -preset medium "!OUTPUT!"
+  ffmpeg -i "%~1" -crf !IMAGEQUALITY! -preset !PRESET! "!OUTPUT!"
 )
 
 if %errorlevel% neq 0 (
