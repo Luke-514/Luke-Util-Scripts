@@ -1,1 +1,2 @@
-shutdown /r /fw /t 0
+powershell start-process %0 -verb runas
+shutdown.exe /r /fw /t 0
