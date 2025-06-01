@@ -4,22 +4,22 @@
 
 # ライセンスについて
 Windows用のスクリプトはMIT  
-Linux用のスクリプトはGPL-3.0です
+Linux用のスクリプトはGPL-3.0です  
 
 # 各スクリプトの説明
 ## Windows
 ### App_List_Generator
 Windowsにインストールされているアプリケーション一覧を取得するバッチファイル  
-結果はバッチを実行したフォルダにApp_List.txtの名前で出力されます
+結果はバッチを実行したフォルダにApp_List.txtの名前で出力されます  
 
 ### DxDiag_Generator
 Windowsの環境などを確認できるDxDiagの結果を出力するバッチファイル  
 結果はバッチを実行したフォルダにdxdiag.txtの名前で出力されます  
-出力に時間がかかるため、黒い画面は自動で閉じるまで何もしないでください
+出力に時間がかかるため、黒い画面は自動で閉じるまで何もしないでください  
 
 ### Open_Startup_Folder
 スタートアップフォルダを開くバッチファイル  
-開いたフォルダにアプリケーションのショートカットを配置しておくと、Windowsの起動時に自動起動します
+開いたフォルダにアプリケーションのショートカットを配置しておくと、Windowsの起動時に自動起動します  
 
 ### Restart_And_UEFI_Startup
 Windowsを再起動してUEFIのセットアップ画面に移動するバッチファイル  
@@ -27,9 +27,10 @@ Windowsを再起動してUEFIのセットアップ画面に移動するバッチ
 
 ### Performance_Score_Check
 パフォーマンススコアを表示するバッチファイル  
+9.9が最大です  
 
 ### SCKill
-Star Citizenがハングした等で何もできなくなった際に強制終了させるバッチファイル  
+Star Citizenがハングした等で何もできなくなった際に強制終了させるバッチファイル
 
 ### Video_to_GIF
 動画をGIFに変換するバッチファイル  
@@ -75,11 +76,11 @@ Windows11の右クリックメニューを従来版に戻すレジストリフ�
 CPUのアイドルとメモリ、スワップの空きを表示します  
 メモリはfreeコマンドのAvailableを参照しています  
 引数にfreeコマンドの引数を指定できます  
-ex) ./Check_CPU_and_MEM_Available.sh -m
+ex) ./Check_CPU_and_MEM_Available.sh -m  
 
 ### Check_Over_Size_FS
 引数に指定した使用率より大きいファイルシステムを出力します  
-ex) ./Check_Over_Size_FS.sh 80
+ex) ./Check_Over_Size_FS.sh 80  
 
 # 参考
 @yusuga (Yu Sugawara)  
