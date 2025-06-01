@@ -25,7 +25,7 @@ Windowsの環境などを確認できるDxDiagの結果を出力するバッチ�
 Windowsを再起動してUEFIのセットアップ画面に移動するバッチファイル  
 実行すると警告なしに再起動するので注意  
 
-### Restart_And_UEFI_Startup
+### Performance_Score_Check
 パフォーマンススコアを表示するバッチファイル  
 
 ### SCKill
