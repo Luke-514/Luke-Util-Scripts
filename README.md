@@ -27,7 +27,7 @@ Windowsを再起動してUEFIのセットアップ画面に移動するバッチ
 
 ### Performance_Score_Check
 パフォーマンススコアを表示するバッチファイル  
-出力される結果は9.9が最大です  
+出力される結果の最大値は9.9です  
   
 計測結果の詳細は`%WINDIR%\performance\winsat\datastore\`に蓄積されます  
 
