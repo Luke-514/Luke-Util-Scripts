@@ -27,7 +27,9 @@ Windowsを再起動してUEFIのセットアップ画面に移動するバッチ
 
 ### Performance_Score_Check
 パフォーマンススコアを表示するバッチファイル  
-9.9が最大です  
+出力される結果は9.9が最大です  
+  
+計測結果の詳細は`%WINDIR%\performance\winsat\datastore\`に蓄積されます  
 
 ### SCKill
 Star Citizenがハングした等で何もできなくなった際に強制終了させるバッチファイル
