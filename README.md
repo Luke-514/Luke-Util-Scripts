@@ -25,12 +25,6 @@ Windowsの環境などを確認できるDxDiagの結果を出力するバッチ�
 Windowsを再起動してUEFIのセットアップ画面に移動するバッチファイル  
 実行すると警告なしに再起動するので注意  
 
-### Performance_Score_Check
-パフォーマンススコアを表示するバッチファイル  
-出力される結果の最大値は9.9です  
-  
-計測結果の詳細は`%WINDIR%\performance\winsat\datastore\`に蓄積されます  
-
 ### SCKill
 Star Citizenがハングした等で何もできなくなった際に強制終了させるバッチファイル
 
