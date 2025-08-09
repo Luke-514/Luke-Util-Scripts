@@ -72,7 +72,7 @@ Windows11の右クリックメニューを従来版に戻します
 適用後は再起動が必要です  
 
 ### ps1_exe
-ps1ファイル(PowerShellスクリプト)をRemoteSignedで実行します  
+ps1ファイル(PowerShellスクリプト)をBypassで実行します  
 バッチファイルにps1ファイルをドラッグ&ドロップすると、スクリプトを実行します  
 
 ## Linux
