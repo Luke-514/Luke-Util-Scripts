@@ -6,6 +6,7 @@ if "%~1"=="" (
     exit /b
 )
 
-powershell -NoProfile -ExecutionPolicy RemoteSigned -File "%~1"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~1"
+
 
 pause
