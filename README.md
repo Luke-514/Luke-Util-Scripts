@@ -64,6 +64,10 @@ H.265(HEVC)のコーデックが無く、動画が再生できない時などに
 Windows11の右クリックメニューを従来版に戻すレジストリファイル  
 適用後は再起動が必要です  
 
+### ps1_exe
+バッチファイルにps1ファイル(PowerShellスクリプト)をドラッグ&ドロップすると、  
+RemoteSignedでps1ファイルを実行します  
+
 ## Linux
 ### Check_CPU_and_MEM_Available
 CPUのアイドルとメモリ、スワップの空きを表示します  
