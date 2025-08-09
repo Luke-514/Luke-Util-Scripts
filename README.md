@@ -27,6 +27,7 @@ Windowsの環境などを確認できるDxDiagの結果を出力します
 ### HW_Info_And_Dxdiag
 DxDiag_Generator.batとps1_exe.batを組み込み、HW_Info.ps1を実行するバッチです  
 HW_Info.ps1は同じフォルダに置いておく必要があります  
+(このバッチを使用する場合は、HW_Info.ps1をドラッグ&ドロップする必要はありません)
 
 ### Open_Startup_Folder
 スタートアップフォルダを開きます  
