@@ -9,10 +9,36 @@ $MEM = Get-CimInstance -ClassName Win32_PhysicalMemory | ForEach-Object {
 }
 $MEM_Total = ($MEM.Capacity_GB | Measure-Object -Sum).Sum
 
-$GPU = Get-CimInstance -ClassName Win32_VideoController | ForEach-Object {
-    [PSCustomObject]@{
-        Name    = $_.Name.Trim()
-        VRAM_GB = [math]::Round($_.AdapterRAM / 1GB, 1)
+if (Test-Path -LiteralPath "dxdiag.txt") {
+    $text = Get-Content -Raw -LiteralPath "dxdiag.txt"
+
+    $pattern = '(?ms)Card name:\s*(.+?)\r?\n.*?Dedicated Memory:\s*([\d,]+)\s*(MB|GB)'
+    $matches = [regex]::Matches($text, $pattern)
+
+    $GPU = foreach ($m in $matches) {
+        $name = $m.Groups[1].Value.Trim()
+        $sizeStr = $m.Groups[2].Value.Replace(',', '')
+        $unit = $m.Groups[3].Value.ToUpper()
+
+        if ($unit -eq 'MB') {
+            $VRAM = [math]::Round(([double]$sizeStr) / 1024, 0)
+        }
+        else {
+            $VRAM = [math]::Round(([double]$sizeStr), 0)
+        }
+
+        [PSCustomObject]@{
+            Name    = $name
+            VRAM_GB = [int]$VRAM
+        }
+    }
+}
+else {
+    $GPU = Get-CimInstance -ClassName Win32_VideoController | ForEach-Object {
+        [PSCustomObject]@{
+            Name    = $_.Name.Trim()
+            VRAM_GB = [math]::Round($_.AdapterRAM / 1GB, 1)
+        }
     }
 }
 
