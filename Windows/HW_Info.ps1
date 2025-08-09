@@ -24,7 +24,6 @@ $Storage = Get-CimInstance -ClassName Win32_DiskDrive | ForEach-Object {
     }
 }
 
-# 仮想メモリ情報
 $PageFile = Get-CimInstance -ClassName Win32_PageFileUsage | ForEach-Object {
     [PSCustomObject]@{
         Path           = $_.Name
@@ -59,3 +58,4 @@ $GPU | Format-Table -AutoSize
 
 Write-Host "===== Storage ====="
 $Storage | Format-Table -AutoSize
+
