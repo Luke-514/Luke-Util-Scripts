@@ -58,4 +58,3 @@ $GPU | Format-Table -AutoSize
 
 Write-Host "===== Storage ====="
 $Storage | Format-Table -AutoSize
-
