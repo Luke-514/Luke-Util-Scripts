@@ -16,10 +16,20 @@ $GPU = Get-CimInstance -ClassName Win32_VideoController | ForEach-Object {
     }
 }
 
-$Storage = Get-CimInstance -ClassName Win32_DiskDrive | ForEach-Object {
+function Convert-MediaType {
+    param($mediaType)
+    switch ($mediaType) {
+        3 { 'HDD' }
+        4 { 'SSD' }
+        5 { 'SCM' }
+        default { 'Unknown' }
+    }
+}
+
+$Storage = Get-CimInstance -Namespace root\Microsoft\Windows\Storage -ClassName MSFT_PhysicalDisk | ForEach-Object {
     [PSCustomObject]@{
-        Model     = $_.Model.Trim()
-        MediaType = if ($_.MediaType) { $_.MediaType.Trim() } else { "Unknown" }
+        Model     = $_.FriendlyName.Trim()
+        MediaType = Convert-MediaType $_.MediaType
         Size_TB   = "{0:N2} TB" -f ($_.Size / 1TB)
     }
 }
