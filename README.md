@@ -24,6 +24,10 @@ Windowsの環境などを確認できるDxDiagの結果を出力します
 同じフォルダにdxdiag.txtがあれば、VRAMの情報が正確に表示される可能性があります  
 (dxdiag.txtが無くてもGPUの型番は表示可能です)  
 
+### HW_Info_And_Dxdiag
+DxDiag_Generator.batとps1_exe.batを組み込み、HW_Info.ps1を実行するバッチです  
+HW_Info.ps1は同じフォルダに置いておく必要があります  
+
 ### Open_Startup_Folder
 スタートアップフォルダを開きます  
 開いたフォルダにアプリケーションのショートカットを配置しておくと、Windowsの起動時に自動起動します  
