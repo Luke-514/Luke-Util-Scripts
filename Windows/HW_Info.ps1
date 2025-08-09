@@ -30,7 +30,7 @@ $Storage = Get-CimInstance -Namespace root\Microsoft\Windows\Storage -ClassName 
     [PSCustomObject]@{
         Model     = $_.FriendlyName.Trim()
         MediaType = Convert-MediaType $_.MediaType
-        Size_TB   = "{0:N2} TB" -f ($_.Size / 1TB)
+        Size_TB   = [math]::Round($_.Size / 1TB, 2)
     }
 }
 
