@@ -21,10 +21,10 @@ if (Test-Path -LiteralPath "dxdiag.txt") {
         $unit = $m.Groups[3].Value.ToUpper()
 
         if ($unit -eq 'MB') {
-            $VRAM = [math]::Round(([double]$sizeStr) / 1024, 0)
+            $VRAM = [math]::Round($sizeStr / 1024)
         }
         else {
-            $VRAM = [math]::Round(([double]$sizeStr), 0)
+            $VRAM = [math]::Round($sizeStr)
         }
 
         [PSCustomObject]@{
