@@ -25,9 +25,8 @@ Windowsの環境などを確認できるDxDiagの結果を出力します
 (dxdiag.txtが無くてもGPUの型番は表示可能です)  
 
 ### HW_Info_And_Dxdiag
-DxDiag_Generator.batとps1_exe.batを組み込み、HW_Info.ps1を実行するバッチです  
-HW_Info.ps1は同じフォルダに置いておく必要があります  
-(このバッチを使用する場合は、HW_Info.ps1をドラッグ&ドロップする必要はありません)
+DxDiag_Generator.batの内容と、HW_Info.ps1を同時実行するバッチです  
+同じフォルダにHW_Info.ps1が配置されている必要があります  
 
 ### Open_Startup_Folder
 スタートアップフォルダを開きます  
