@@ -90,7 +90,7 @@ CPUのアイドルとメモリ、スワップの空きを表示します
 ex) ./Check_CPU_and_MEM_Available.sh -m  
 
 ### Check_Over_Size_FS
-引数に指定した使用率より大きいファイルシステムを出力します  
+引数に指定した値より使用率の大きいファイルシステムを出力します  
 ex) ./Check_Over_Size_FS.sh 80  
 
 # 参考
