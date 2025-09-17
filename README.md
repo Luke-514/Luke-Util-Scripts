@@ -7,6 +7,7 @@ Windows用のスクリプトはMIT
 Linux用のスクリプトはGPL-3.0です  
 
 # 各スクリプトの説明
+https://lukesplaygrounds.com/2025/08/10/introduction-to-scripts-created-as-a-hobby/
 ## Windows
 ### App_List_Generator
 Windowsにインストールされているアプリケーション一覧を取得します  
