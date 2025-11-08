@@ -11,7 +11,7 @@ ffmpeg -version >nul 2>&1
 
 if %errorlevel% neq 0 (
   echo ffmpeg not found. Start installation...
-  winget install ffmpeg
+  winget install ffmpeg --accept-package-agreements --accept-source-agreements
 ) else (
   if "%~1"=="" (
       echo Drag and drop video files into this batch file
@@ -28,3 +28,4 @@ if %errorlevel% neq 0 (
 if %errorlevel% neq 0 (
   pause
 )
+
