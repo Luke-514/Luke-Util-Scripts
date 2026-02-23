@@ -125,7 +125,9 @@ ex) ./Check_Over_Size_FS.sh 80
 
 # 作者
 Luke514  
-X:@rx_luke
+X：@rx_luke  
+  
+[お問い合わせ](https://lukesplaygrounds.com/about/)
 
 # 寄付
 <a href="https://www.buymeacoffee.com/Luke514" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
