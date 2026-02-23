@@ -6,6 +6,11 @@
 Windows用のスクリプトは**MIT**  
 Linux用のスクリプトは**GPL-3.0**です  
 
+# ダウンロード
+以下のボタンを押すと、一括ダウンロードが可能です  
+  
+<a href="https://github.com/Luke-514/Luke-Util-Scripts/archive/refs/heads/main.zip"><img src="https://github.com/user-attachments/assets/73eeb95a-bb46-4100-aa49-9407ff77272b" width="200" alt="ダウンロードはこちら！"></a>  
+
 # 各スクリプトの説明
 https://lukesplaygrounds.com/introduction-to-scripts-created-as-a-hobby/
 ## Windows
